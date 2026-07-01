@@ -1,0 +1,6 @@
+{
+  "name": "AlternateLife",
+  "description": "An immersive, modern, and interactive life and career simulation game where you make choices, face random events, dynamically unlock careers, and earn certificates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
