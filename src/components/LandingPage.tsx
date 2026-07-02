@@ -81,7 +81,7 @@ export default function LandingPage({
           </div>
           <div className="text-2xl font-black text-white">{totalSimulated}</div>
           <div className="text-xs text-gray-400 font-medium uppercase tracking-wider">
-            {lang === "id" ? "Jiwa Tersimulasi" : "Souls Simulated"}
+            {lang === "id" ? "Player Telah Menyerah" : "Souls Simulated"}        
           </div>
         </div>
 
