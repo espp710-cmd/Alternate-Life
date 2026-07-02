@@ -266,7 +266,7 @@ export default function App() {
               <span className="font-extrabold text-lg text-white uppercase tracking-tighter group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#00f2ff] group-hover:to-[#bc13fe] transition duration-200">
                 Alternate<span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00f2ff] to-[#bc13fe]">Life</span>
               </span>
-              <span className="hidden sm:inline-block text-[10px] text-white/40 block leading-tight font-mono ml-1.5">v1.1 RELEASE</span>
+              <span className="hidden sm:inline-block text-[10px] text-white/40 block leading-tight font-mono ml-1.5">v1.1 Beta</span>
             </div>
           </button>
 
@@ -419,7 +419,7 @@ export default function App() {
               title={lang === "id" ? "Konsol Admin Telemetri" : "Access Admin Console"}
             >
               <Settings className="w-3.5 h-3.5 animate-spin-slow text-[#bc13fe]" />
-              <span>{lang === "id" ? "Admin" : "Admin"}</span>
+              <span>{lang === "id" ? "" : ""}</span>
             </button>
           </div>
 
